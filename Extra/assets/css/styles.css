@@ -629,8 +629,8 @@ img {
   .references_container{
     grid-template-columns: repeat(2, 1fr);
   }
-
-  .languages_content{
+  
+   .languages_content{
     grid-template-columns: repeat(3, max-content);
     column-gap: 3.5rem;
   }

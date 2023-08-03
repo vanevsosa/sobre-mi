@@ -35,6 +35,13 @@ h1 {
     padding-top: 50px;
 }
 
+/* Añado al link del trabajo extra, color y lo alineo para que quede abajo de todo a la izquierda. */
+.extra_cv {
+    color: #0c0d0d;
+    padding-left: 20px;
+    text-align: end;
+}
+
 /* Añado tamaño de altura, bordes y centro el texto.*/
 main {
     text-align: center;
