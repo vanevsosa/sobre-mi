@@ -110,3 +110,8 @@ al ícono correspondiente a cada una. De manera que al pasar el cursor sobre el 
 .redes_container ul li .github:hover {
     background: var(--github);
 }
+
+nav {
+    text-align: center;
+
+}
