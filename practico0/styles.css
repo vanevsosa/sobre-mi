@@ -39,7 +39,7 @@ h1 {
 .extra_cv {
     color: #0c0d0d;
     padding-left: 20px;
-    text-align: end;
+    text-align: center;
 }
 
 /* Añado tamaño de altura, bordes y centro el texto.*/
@@ -109,4 +109,9 @@ al ícono correspondiente a cada una. De manera que al pasar el cursor sobre el 
 
 .redes_container ul li .github:hover {
     background: var(--github);
+}
+
+nav {
+    text-align: center;
+    
 }
