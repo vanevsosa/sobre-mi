@@ -1,0 +1,78 @@
+/* Estilo general de la web */
+body {
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(fondo.jpg);
+    height: 100vh;
+    margin: auto;
+    background-position: center;
+}
+
+/* Estilo para el titulo*/
+h1 {
+    background-color: lightblue;
+    border: solid black 2px;
+    border-radius: 10px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: center;
+    width: 200px;
+    margin: auto;
+}
+
+/* Estilo para el contenedor */
+.contenedor-flex {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* Estilo del cuadro de la calculadora*/
+.calculadora {
+    background-color: lightpink;
+    border-radius: 10px;
+    padding: 40px;
+    text-align: center;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0);
+    border: solid lightslategray 2px;
+    width: 200px;
+    margin: auto;
+}
+
+/* Estilo para el  boton */
+#button {
+    background-color: lightgreen;
+    color: black;
+    border-radius: 10px;
+    width: 100px;
+    margin: auto;
+    justify-content: center;
+    display: flex;
+    font-family: 'Times New Roman', Times, serif;
+    width: 50%;
+    height: 50%;
+    
+}
+
+/* Estilo para el resultado*/
+#resultado {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: white;
+    border: solid black 2px;
+}
+
+/* Estilo de los cuadros del input*/
+input, select, button {
+    margin: 10px;
+    padding: 10px;
+    border: solid black 2px;
+    justify-content: center;
+    text-align: center;
+    width: 90%;
+    border-radius: 12px;
+    font-size: 18px;
+}
+

@@ -3,9 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <title>Calculadora Simple</title>
+    
 </head>
 <body>
+    <div class="contenedor-flex">
+        
+        <p><h1>Calculadora Simple</h1></p>
     
+    <div class="calculadora">
+        <input type="number" id="numero1" placeholder="Ingrese un numero">
+    <div>
+
+    <!--Acá va el menú desplegable-->
+        <select name="operaciones" id="operacion">
+            <option value="none">Elije una opcion</option>
+            <option value="sumar">+</option>
+            <option value="restar">-</option>
+            <option value="multiplicar">*</option>
+            <option value="dividir">/</option>
+        </select>
+    </div>
+
+    <!--Al ser tipo número, el input solo admite valores numéricos-->
+        <input type="number" id="numero2" placeholder="Ingrese un numero">
+    <br> 
+    <!--Boton calcular-->
+        <button id="button" onclick="calcular()">Calcular</button>
+    
+    <!--Resultado-->
+        <p id="resultado">Resultado</p>
+        
+    <!--Boton borrar que recarga la página y borra todo-->
+        <button id="borrador"><a href="index.html">Borrar</a></button>
+    </div>
+
+    <!--Conexion con mi JS-->
+    <script src="script.js"></script>    
 </body>
 </html>
