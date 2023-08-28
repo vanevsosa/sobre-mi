@@ -1,0 +1,71 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+    background-size: cover;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px black, 0 0 1em green, 0 0 0.2em royalblue;
+    color: black;
+    background-color: salmon;
+    font-size: large;
+}
+
+#div-a-jugar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#div-nombre, #div-jugada, #div-resultados{
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#div-botones{
+    display: none;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+button{
+    margin: 10px;
+    background-color: lightblue;
+    border-radius: 6px;
+    box-shadow: 0 9px #aaa;
+    background-position: center;
+    background-size: cover;
+    font-weight: bold;
+    font-size: large;
+}
+
+button:hover {
+    scale: 140%;
+    transition: 500ms;
+}
+
+button:active {
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+.marcadores {
+    font-size: medium;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+.img-1, .img-2, .img-3 {
+    margin-right: 30px;
+}
