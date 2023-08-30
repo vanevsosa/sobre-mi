@@ -1,6 +1,6 @@
 body{
     width: 100vw;
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -10,7 +10,7 @@ body{
     font-weight: bold;
     text-shadow: 1px 1px 2px black, 0 0 1em green, 0 0 0.2em royalblue;
     color: black;
-    background-color: salmon;
+    background-color: #fec89a;
     font-size: large;
 }
 
@@ -29,16 +29,17 @@ body{
 }
 
 #div-botones{
-    display: none;
+    display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 button{
     margin: 10px;
     background-color: lightblue;
-    border-radius: 6px;
+    border-radius: 10px;
     box-shadow: 0 9px #aaa;
     background-position: center;
     background-size: cover;
@@ -49,11 +50,13 @@ button{
 button:hover {
     scale: 140%;
     transition: 500ms;
+    cursor: pointer;    
 }
 
 button:active {
     box-shadow: 0 5px #666;
     transform: translateY(4px);
+    animation: rotate-scale-up 0.65s linear both;
 }
 
 .marcadores {
@@ -64,8 +67,32 @@ button:active {
     align-items: center;
     justify-content: center;
     margin-top: 25px;
+    max-width: 100%;
 }
 
 .img-1, .img-2, .img-3 {
-    margin-right: 30px;
+    margin-right: 20px;
+    max-width: 100%;
+    display: flex;
 }
+
+/* Definición de la animación */
+@-webkit-keyframes rotate-scale-up {
+    0% {
+      -webkit-transform: scale(1) rotateZ(0);
+              transform: scale(1) rotateZ(0);
+    }
+    50% {
+      -webkit-transform: scale(2) rotateZ(180deg);
+              transform: scale(2) rotateZ(180deg);
+    }
+    100% {
+      -webkit-transform: scale(1) rotateZ(360deg);
+              transform: scale(1) rotateZ(360deg);
+    }
+  }
+  
+  
+  
+ 
+  
