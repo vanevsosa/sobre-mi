@@ -12,6 +12,7 @@ body{
     color: black;
     background-color: #fec89a;
     font-size: large;
+    background-image: url(fondo.jpg);
 }
 
 #div-a-jugar{
@@ -38,7 +39,7 @@ body{
 
 button{
     margin: 10px;
-    background-color: lightblue;
+    background-color: violet;
     border-radius: 10px;
     box-shadow: 0 9px #aaa;
     background-position: center;
